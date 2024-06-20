@@ -1,0 +1,50 @@
+/** @format */
+
+body {
+  margin: 0;
+  background-color: #414656;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #eeeeee;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+  height: 36px;
+  width: 149px;
+}
+
+.score-styling {
+  color: #f94f6d;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 117px;
+  height: 120px;
+}
+
+.add-points-styling {
+  background-color: #414656;
+  border: 2.5px solid #9aabd8;
+  color: #9aabd8;
+  border-radius: 5px;
+  width: 90px;
+  height: 50px;
+  font-size: larger;
+}
+.score-board {
+  background-color: black;
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #9aabd8;
+  border-style: none;
+}
