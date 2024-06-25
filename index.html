@@ -24,23 +24,27 @@
   </head>
   <body>
     <div class="container">
-      <div>
+      <div class="home-container">
         <h3 class="title">HOME</h3>
         <div class="score-board">
           <p id="home-score" class="score-styling">0</p>
         </div>
-        <button id="home-add-one" class="add-points-styling">+1</button>
-        <button id="home-add-two" class="add-points-styling">+2</button>
-        <button id="home-add-three" class="add-points-styling">+3</button>
+        <div class="button">
+          <button class="add-points-styling" onclick="homAddOne()">+1</button>
+          <button class="add-points-styling" onclick="homAddTwo()">+2</button>
+          <button class="add-points-styling" onclick="homAddThree()">+3</button>
+        </div>
       </div>
-      <div>
+      <div class="guest-container">
         <h3 class="title">GUEST</h3>
         <div class="score-board">
           <p id="guest-score" class="score-styling">0</p>
         </div>
-        <button id="guest-add-one" class="add-points-styling">+1</button>
-        <button id="guest-add-two" class="add-points-styling">+2</button>
-        <button id="guest-add-three" class="add-points-styling">+3</button>
+        <div class="button">
+          <button class="add-points-styling" onclick="awAddOne()">+1</button>
+          <button class="add-points-styling" onclick="awAddTwo()">+2</button>
+          <button class="add-points-styling" onclick="awAddThree()">+3</button>
+        </div>
       </div>
     </div>
     <script src="index.js"></script>
